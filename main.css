@@ -1,0 +1,44 @@
+.nav{
+    background-color: #ef5122;
+    display: flex;
+    /* min-height: 42px; */
+    justify-content: space-between;
+}
+
+.nav-list{
+    margin: auto 16px;
+    padding-left: 0;
+}
+
+.nav-item{
+    margin:0 8px;
+    display: inline-block;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.bu img{
+    flex: 1;
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 30px;
+}
+
+.link a{
+    color: violet;
+    margin-top: 20px;
+    position: absolute;
+    left: 45%;
+}
+
+.link{
+    position: relative;
+    margin-top: 50px;
+}
